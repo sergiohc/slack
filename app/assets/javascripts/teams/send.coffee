@@ -4,3 +4,4 @@ $(document).on 'turbolinks:load', ->
       App.chat.send({message: $('.new_message').val()})
       $('.new_message').val("")
     return
+

@@ -16,3 +16,4 @@ $(document).on 'turbolinks:load', ->
           $('#remove_team_modal').modal('close')
           Materialize.toast('Problem to delete Team &nbsp;<b>:(</b>', 4000, 'red')
     return false
+
